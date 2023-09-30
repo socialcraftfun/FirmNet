@@ -1,0 +1,16 @@
+name: FirmNet
+version: '${version}'
+main: fun.socialcraft.economy.firmnet.FirmNetPlugin
+api-version: '1.20'
+
+commands:
+  createinvest:
+    description: "Создает собственное предприятие для сбора алмазов."
+    usage: "/createinvest <название_предприятия>"
+    permission: "firmnet.command.createinvest"
+    permission-message: "У вас нет разрешения на использование этой команды."
+  invest:
+    description: "Открывает меню Инвестиций для вложения ресурсов в предприятия."
+    usage: "/invest"
+    permission: "firmnet.command.invest"
+    permission-message: "У вас нет разрешения на использование этой команды."
